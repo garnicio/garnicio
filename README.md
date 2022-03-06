@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+```mermaid
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+    click A "http://www.github.com" _self
+    click B "http://www.github.com" "Open this in a new tab" _parent
+    click C href "http://www.github.com" _top
+    click D href "http://www.github.com" "Open this in a new tab" _blank
+```
